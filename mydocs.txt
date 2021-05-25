@@ -1,0 +1,43 @@
+abs(_) = makes something a whole number
+ceiling() = rounds up
+floor() = rounds down
+cat() = linebreaks inserted like it is in the code
+plot(_,_) = plots things on a graph
+plot(_:_) = one number to another
+print() = has a print function
+nchar() = finds the number of characters in the string
+grepl() = checks if character or sequence of characters are present in a string
+for(){} = Same as python
+hist(_,_) = makes a histogram
+sqrt(_) = finds square root
+?___ = will find help for a command
+#stuff and things = comments
+paste() = fuses 2 or more elements
+help() = will do the same thing as the last thing
+example() = will do an example of a function
+_ = _ + _ = variable assignment works very similar to python
+_ <- = assignment operator
+T and TRUE = true
+F and FALSE = FALSE
+"" and '' = characters that are stored
+name <- as.factor('obj name') = makes something a factor
+name <- c(1,2,2,23,0.123) = makes a vector
+name <- c(T,F,T,F) = makes a vector of true and false values
+name <- c("one", "potato", "Linus would be mad") = vectors or characters
+name <- as.factor(c("stuff", "things", "otherthings")) = makes vectors a factor
+list(name, name, name) = makes a list of previously assigned things, note: can make lists in lists
+View(list) = shows a full list
+data.frame(name, name) = shows a list of data 
+data.frame(a = name, c = name) = gives a name to a dataframe
+matrix(name, name) = makes a matrix of data 
+as.numeric() | as.integer() | as.complex() = converts something into said item
+
+
+notes:
+r is not sensitive to space
+case is sensitive
+overrides variables
+can assign variables to dataframe 
+All data types: numeric(self explainitory), integer( 100L, where the letter "L" declares this as an integer), complex(imaginary stuff idk), character(words and such), logical(like a bool)
+\ will allow you to use " in an already "stringified" way"
+can asks quesitons like 9 > 10 and it will return true or false
