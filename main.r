@@ -1,1 +1,4 @@
-TRUE <- FALSE
+numbers <- seq(from = 0, to = 100, by = 20)
+
+
+print(numbers)

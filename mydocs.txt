@@ -7,7 +7,32 @@ plot(_:_) = one number to another
 print() = has a print function
 nchar() = finds the number of characters in the string
 grepl() = checks if character or sequence of characters are present in a string
-for(){} = Same as python
+c(thing1, thing2, thing3) = creates a vector
+sort() = sorts either alphabetically or numerically
+Vectorname[0] = finds the first item in the vector
+Vectorname[c(1, 3)] = finds the first and third item in the vector
+Vectorname[c(-1)] = will give all items except for item 1
+Vectorname[3] <- "changed" = will change the item
+repeat_each <- rep(c(1,2,3), each = 3) = repeats each item 3 times
+repeat_times <- rep(c(1,2,3), times = 3) = repeats the sequence 3 times
+repeat_indepent <- rep(c(1,2,3), times = c(5,2,1)) = repeats each item
+numbers <- seq(from = 0, to = 100, by = 20) = creates numbers 0 - 20 - 40 - 60 - 80 - 100 (has 3 parameters)
+num <- 1:10 = creates a vector of 1-10
+1:10 = does everything in that sequence
+1.5:10.3 = will not return 10.3, only 1.5, 2.5, 3.5 so on.
+length() = finds how many items in the vector
+for(){} = Same as python (brackets tho)
+if(){} = Same as python (brackets tho)
+if(1 == 1, !=, >=, <=) = all the identifiers
+if(1 > 0 & 2 > 1) = uses &
+if(1 > 0 | 2 < 3) = or statement uses |
+while() = same as python (brackets tho)
+break = stops loop
+next = skips iteration without breaking the loop
+theFunction <- function() = creates a function that you can call
+theFunction() = calls function
+something <<- "This" = makes the variable global even if its in a function
+return() = returns whatever is put into it
 hist(_,_) = makes a histogram
 sqrt(_) = finds square root
 ?___ = will find help for a command
@@ -41,3 +66,4 @@ can assign variables to dataframe
 All data types: numeric(self explainitory), integer( 100L, where the letter "L" declares this as an integer), complex(imaginary stuff idk), character(words and such), logical(like a bool)
 \ will allow you to use " in an already "stringified" way"
 can asks quesitons like 9 > 10 and it will return true or false
+can call functions with another function 
